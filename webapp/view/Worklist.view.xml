@@ -1,0 +1,60 @@
+<mvc:View controllerName="demo.sap.proj_worklist1.controller.Worklist" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.f.semantic" xmlns:footerbar="sap.ushell.ui.footerbar">
+	<semantic:SemanticPage id="page" headerPinnable="false" toggleHeaderOnTitleClick="false">
+		<semantic:titleHeading>
+			<Title text="{i18n>worklistTitle}" level="H2"/>
+		</semantic:titleHeading>
+		<semantic:content>
+			<Table id="table" width="auto"
+				items="{ path: '/ZDEMO_C_Pro_TP_D', filters : [ { path : 'IsActiveEntity', operator: 'EQ', value1: true } ] , sorter: { path: 'Projdef', descending: false } , parameters: { 'expand': 'to_WBS' } }"
+				noDataText="{worklistView>/tableNoDataText}" busyIndicatorDelay="{worklistView>/tableBusyDelay}" growing="true" growingScrollToLoad="true"
+				updateFinished=".onUpdateFinished">
+				<headerToolbar>
+					<OverflowToolbar>
+						<Title id="tableHeader" text="{worklistView>/worklistTableTitle}" level="H3"/>
+						<ToolbarSpacer/>
+						<SearchField id="searchField" tooltip="{i18n>worklistSearchTooltip}" search=".onSearch">
+							<layoutData>
+								<OverflowToolbarLayoutData maxWidth="200px" priority="NeverOverflow"/>
+							</layoutData>
+						</SearchField>
+					</OverflowToolbar>
+				</headerToolbar>
+				<columns>
+					<Column id="nameColumn">
+						<Text text="{i18n>tableNameColumnTitle}" id="nameColumnTitle"/>
+					</Column>
+					<Column id="nameColumn1">
+						<Text text="{i18n>tableNameColumnTitle1}" id="nameColumnTitle1"/>
+					</Column>
+					<Column id="nameColumn2">
+						<Text text="{i18n>tableNameColumnTitle2}" id="nameColumnTitle2"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem type="Navigation" press=".onPress">
+						<cells>
+							
+							<ObjectIdentifier title="{Projdef}" text="{path: 'HasDraftEntity', formatter: '.formatter.draftState'}"/>
+							<ObjectAttribute text="{IsActiveEntity}"/>
+							<ObjectAttribute text="{ProjectUUID}"/>
+							
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</semantic:content>
+		<semantic:sendEmailAction>
+			<semantic:SendEmailAction id="shareEmail" press=".onShareEmailPress"/>
+		</semantic:sendEmailAction>
+		<semantic:shareInJamAction>
+			<semantic:ShareInJamAction id="shareInJam" visible="{FLP>/isShareInJamActive}" press=".onShareInJamPress"/>
+		</semantic:shareInJamAction>
+		<semantic:saveAsTileAction>
+			<footerbar:AddBookmarkButton id="shareTile" title="{worklistView>/saveAsTileTitle}"/>
+		</semantic:saveAsTileAction>
+	</semantic:SemanticPage>
+</mvc:View>
+
+
+

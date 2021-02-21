@@ -1,0 +1,511 @@
+[{
+	"Preparation_ac": true,
+	"Validation_ac": false,
+	"WBSUUID": "c2737175-ed8c-461b-9b19-54302f233189",
+	"ProjectUUID": "bdcf2d0f-04b6-4d64-8d8b-e6c122b416b3",
+	"Posid": "Posid 1",
+	"HierachyLevel": 0,
+	"ParentNode": "ParentNode 1",
+	"ElementName": "ElementName 1",
+	"Person": "Person 1",
+	"StartDate": "/Date(1335857495000)/",
+	"FinishDate": "/Date(1420183895000)/",
+	"BusinessArea": "BusinessArea 1",
+	"CompanyCode": "CompanyCode 1",
+	"ControllingArea": "ControllingArea 1",
+	"DrillDownState": "DrillDownState 1",
+	"HasDraftEntity": true,
+	"ActiveUUID": "78ddc6e7-904b-4414-9333-d45728f52515",
+	"DraftEntityCreationDateTime": "/Date(1573371095000+0000)/",
+	"DraftEntityLastChangeDateTime": "/Date(1545723095000+0000)/",
+	"HasActiveEntity": false,
+	"IsActiveEntity": true,
+	"__metadata": {
+		"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'c2737175-ed8c-461b-9b19-54302f233189',IsActiveEntity=true)",
+		"type": "ZDEMO_C_PRO_TP_D_CDS.ZDEMO_C_Wb_TP_DType"
+	},
+	"to_Project": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'c2737175-ed8c-461b-9b19-54302f233189',IsActiveEntity=true)/to_Project"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'c2737175-ed8c-461b-9b19-54302f233189',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'c2737175-ed8c-461b-9b19-54302f233189',IsActiveEntity=true)/SiblingEntity"
+		}
+	},
+	"to_Company": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'c2737175-ed8c-461b-9b19-54302f233189',IsActiveEntity=true)/to_Company"
+		}
+	},
+	"to_Controlling": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'c2737175-ed8c-461b-9b19-54302f233189',IsActiveEntity=true)/to_Controlling"
+		}
+	}
+}, {
+	"Preparation_ac": false,
+	"Validation_ac": false,
+	"WBSUUID": "fc1b9fc5-5b70-4546-ab74-fab8cf3c2837",
+	"ProjectUUID": "0dc4e020-7b42-430e-82d8-cf987d5b9502",
+	"Posid": "Posid 2",
+	"HierachyLevel": 0,
+	"ParentNode": "ParentNode 2",
+	"ElementName": "ElementName 2",
+	"Person": "Person 2",
+	"StartDate": "/Date(981617495000)/",
+	"FinishDate": "/Date(1212737495000)/",
+	"BusinessArea": "BusinessArea 2",
+	"CompanyCode": "CompanyCode 2",
+	"ControllingArea": "ControllingArea 2",
+	"DrillDownState": "DrillDownState 2",
+	"HasDraftEntity": true,
+	"ActiveUUID": "20dca06c-5fb0-4663-a7cf-ad0055dee0f5",
+	"DraftEntityCreationDateTime": "/Date(1554708695000+0000)/",
+	"DraftEntityLastChangeDateTime": "/Date(970644695000+0000)/",
+	"HasActiveEntity": false,
+	"IsActiveEntity": true,
+	"__metadata": {
+		"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'fc1b9fc5-5b70-4546-ab74-fab8cf3c2837',IsActiveEntity=false)",
+		"type": "ZDEMO_C_PRO_TP_D_CDS.ZDEMO_C_Wb_TP_DType"
+	},
+	"to_Project": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'fc1b9fc5-5b70-4546-ab74-fab8cf3c2837',IsActiveEntity=false)/to_Project"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'fc1b9fc5-5b70-4546-ab74-fab8cf3c2837',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'fc1b9fc5-5b70-4546-ab74-fab8cf3c2837',IsActiveEntity=false)/SiblingEntity"
+		}
+	},
+	"to_Company": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'fc1b9fc5-5b70-4546-ab74-fab8cf3c2837',IsActiveEntity=false)/to_Company"
+		}
+	},
+	"to_Controlling": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'fc1b9fc5-5b70-4546-ab74-fab8cf3c2837',IsActiveEntity=false)/to_Controlling"
+		}
+	}
+}, {
+	"Preparation_ac": false,
+	"Validation_ac": false,
+	"WBSUUID": "a979dfb9-48fc-4b00-a23d-8389080eae16",
+	"ProjectUUID": "4cd02350-1624-42bb-b8bc-4d11c71a899d",
+	"Posid": "Posid 3",
+	"HierachyLevel": 6,
+	"ParentNode": "ParentNode 3",
+	"ElementName": "ElementName 3",
+	"Person": "Person 3",
+	"StartDate": "/Date(1021102295000)/",
+	"FinishDate": "/Date(1056871895000)/",
+	"BusinessArea": "BusinessArea 3",
+	"CompanyCode": "CompanyCode 3",
+	"ControllingArea": "ControllingArea 3",
+	"DrillDownState": "DrillDownState 3",
+	"HasDraftEntity": false,
+	"ActiveUUID": "2e6882a2-c874-4ce4-8fed-b087bf372ca0",
+	"DraftEntityCreationDateTime": "/Date(1201851095000+0000)/",
+	"DraftEntityLastChangeDateTime": "/Date(1449473495000+0000)/",
+	"HasActiveEntity": false,
+	"IsActiveEntity": true,
+	"__metadata": {
+		"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'a979dfb9-48fc-4b00-a23d-8389080eae16',IsActiveEntity=true)",
+		"type": "ZDEMO_C_PRO_TP_D_CDS.ZDEMO_C_Wb_TP_DType"
+	},
+	"to_Project": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'a979dfb9-48fc-4b00-a23d-8389080eae16',IsActiveEntity=true)/to_Project"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'a979dfb9-48fc-4b00-a23d-8389080eae16',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'a979dfb9-48fc-4b00-a23d-8389080eae16',IsActiveEntity=true)/SiblingEntity"
+		}
+	},
+	"to_Company": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'a979dfb9-48fc-4b00-a23d-8389080eae16',IsActiveEntity=true)/to_Company"
+		}
+	},
+	"to_Controlling": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'a979dfb9-48fc-4b00-a23d-8389080eae16',IsActiveEntity=true)/to_Controlling"
+		}
+	}
+}, {
+	"Preparation_ac": false,
+	"Validation_ac": true,
+	"WBSUUID": "fa63cc14-71f8-43bf-a3f2-eb9488861603",
+	"ProjectUUID": "a2497b99-15be-429c-ba9a-2d5ccd35c08c",
+	"Posid": "Posid 4",
+	"HierachyLevel": 2,
+	"ParentNode": "ParentNode 4",
+	"ElementName": "ElementName 4",
+	"Person": "Person 4",
+	"StartDate": "/Date(976519895000)/",
+	"FinishDate": "/Date(1356420695000)/",
+	"BusinessArea": "BusinessArea 4",
+	"CompanyCode": "CompanyCode 4",
+	"ControllingArea": "ControllingArea 4",
+	"DrillDownState": "DrillDownState 4",
+	"HasDraftEntity": true,
+	"ActiveUUID": "7c2d0d18-f9c0-4f32-b241-3f84386a9cc7",
+	"DraftEntityCreationDateTime": "/Date(1505633495000+0000)/",
+	"DraftEntityLastChangeDateTime": "/Date(1295422295000+0000)/",
+	"HasActiveEntity": false,
+	"IsActiveEntity": true,
+	"__metadata": {
+		"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'fa63cc14-71f8-43bf-a3f2-eb9488861603',IsActiveEntity=true)",
+		"type": "ZDEMO_C_PRO_TP_D_CDS.ZDEMO_C_Wb_TP_DType"
+	},
+	"to_Project": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'fa63cc14-71f8-43bf-a3f2-eb9488861603',IsActiveEntity=true)/to_Project"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'fa63cc14-71f8-43bf-a3f2-eb9488861603',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'fa63cc14-71f8-43bf-a3f2-eb9488861603',IsActiveEntity=true)/SiblingEntity"
+		}
+	},
+	"to_Company": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'fa63cc14-71f8-43bf-a3f2-eb9488861603',IsActiveEntity=true)/to_Company"
+		}
+	},
+	"to_Controlling": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'fa63cc14-71f8-43bf-a3f2-eb9488861603',IsActiveEntity=true)/to_Controlling"
+		}
+	}
+}, {
+	"Preparation_ac": true,
+	"Validation_ac": true,
+	"WBSUUID": "2cc7eed0-e626-48fd-a387-80ef4c64d821",
+	"ProjectUUID": "60ee31d5-ae47-4d0a-b4dd-a6e65cfe2d8f",
+	"Posid": "Posid 5",
+	"HierachyLevel": 7,
+	"ParentNode": "ParentNode 5",
+	"ElementName": "ElementName 5",
+	"Person": "Person 5",
+	"StartDate": "/Date(1174030295000)/",
+	"FinishDate": "/Date(1535527895000)/",
+	"BusinessArea": "BusinessArea 5",
+	"CompanyCode": "CompanyCode 5",
+	"ControllingArea": "ControllingArea 5",
+	"DrillDownState": "DrillDownState 5",
+	"HasDraftEntity": false,
+	"ActiveUUID": "a3c8635a-3172-4e53-ac50-0fd8258b6197",
+	"DraftEntityCreationDateTime": "/Date(1256974295000+0000)/",
+	"DraftEntityLastChangeDateTime": "/Date(1055143895000+0000)/",
+	"HasActiveEntity": false,
+	"IsActiveEntity": true,
+	"__metadata": {
+		"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'2cc7eed0-e626-48fd-a387-80ef4c64d821',IsActiveEntity=true)",
+		"type": "ZDEMO_C_PRO_TP_D_CDS.ZDEMO_C_Wb_TP_DType"
+	},
+	"to_Project": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'2cc7eed0-e626-48fd-a387-80ef4c64d821',IsActiveEntity=true)/to_Project"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'2cc7eed0-e626-48fd-a387-80ef4c64d821',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'2cc7eed0-e626-48fd-a387-80ef4c64d821',IsActiveEntity=true)/SiblingEntity"
+		}
+	},
+	"to_Company": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'2cc7eed0-e626-48fd-a387-80ef4c64d821',IsActiveEntity=true)/to_Company"
+		}
+	},
+	"to_Controlling": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'2cc7eed0-e626-48fd-a387-80ef4c64d821',IsActiveEntity=true)/to_Controlling"
+		}
+	}
+}, {
+	"Preparation_ac": false,
+	"Validation_ac": true,
+	"WBSUUID": "f4dd8a56-e0e9-4c75-a7a4-5280c5521bc9",
+	"ProjectUUID": "328a2fc8-9828-4d50-98cd-7643c061e4d7",
+	"Posid": "Posid 6",
+	"HierachyLevel": 2,
+	"ParentNode": "ParentNode 6",
+	"ElementName": "ElementName 6",
+	"Person": "Person 6",
+	"StartDate": "/Date(1285486295000)/",
+	"FinishDate": "/Date(1099207895000)/",
+	"BusinessArea": "BusinessArea 6",
+	"CompanyCode": "CompanyCode 6",
+	"ControllingArea": "ControllingArea 6",
+	"DrillDownState": "DrillDownState 6",
+	"HasDraftEntity": true,
+	"ActiveUUID": "9ba6478c-3a25-4b29-8fa8-1e757fb1fc29",
+	"DraftEntityCreationDateTime": "/Date(1406532695000+0000)/",
+	"DraftEntityLastChangeDateTime": "/Date(1343979095000+0000)/",
+	"HasActiveEntity": false,
+	"IsActiveEntity": true,
+	"__metadata": {
+		"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'f4dd8a56-e0e9-4c75-a7a4-5280c5521bc9',IsActiveEntity=true)",
+		"type": "ZDEMO_C_PRO_TP_D_CDS.ZDEMO_C_Wb_TP_DType"
+	},
+	"to_Project": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'f4dd8a56-e0e9-4c75-a7a4-5280c5521bc9',IsActiveEntity=true)/to_Project"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'f4dd8a56-e0e9-4c75-a7a4-5280c5521bc9',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'f4dd8a56-e0e9-4c75-a7a4-5280c5521bc9',IsActiveEntity=true)/SiblingEntity"
+		}
+	},
+	"to_Company": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'f4dd8a56-e0e9-4c75-a7a4-5280c5521bc9',IsActiveEntity=true)/to_Company"
+		}
+	},
+	"to_Controlling": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'f4dd8a56-e0e9-4c75-a7a4-5280c5521bc9',IsActiveEntity=true)/to_Controlling"
+		}
+	}
+}, {
+	"Preparation_ac": true,
+	"Validation_ac": true,
+	"WBSUUID": "1672b819-0399-4be8-a9d7-e5f5ad2d4a80",
+	"ProjectUUID": "d7403eb5-2eea-4ef3-9a2f-1880c1f55eb5",
+	"Posid": "Posid 7",
+	"HierachyLevel": 5,
+	"ParentNode": "ParentNode 7",
+	"ElementName": "ElementName 7",
+	"Person": "Person 7",
+	"StartDate": "/Date(1419838295000)/",
+	"FinishDate": "/Date(1182843095000)/",
+	"BusinessArea": "BusinessArea 7",
+	"CompanyCode": "CompanyCode 7",
+	"ControllingArea": "ControllingArea 7",
+	"DrillDownState": "DrillDownState 7",
+	"HasDraftEntity": true,
+	"ActiveUUID": "ac45cdac-7ee3-4b89-bf08-6e59132e493e",
+	"DraftEntityCreationDateTime": "/Date(1109835095000+0000)/",
+	"DraftEntityLastChangeDateTime": "/Date(949995095000+0000)/",
+	"HasActiveEntity": false,
+	"IsActiveEntity": true,
+	"__metadata": {
+		"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'1672b819-0399-4be8-a9d7-e5f5ad2d4a80',IsActiveEntity=true)",
+		"type": "ZDEMO_C_PRO_TP_D_CDS.ZDEMO_C_Wb_TP_DType"
+	},
+	"to_Project": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'1672b819-0399-4be8-a9d7-e5f5ad2d4a80',IsActiveEntity=true)/to_Project"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'1672b819-0399-4be8-a9d7-e5f5ad2d4a80',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'1672b819-0399-4be8-a9d7-e5f5ad2d4a80',IsActiveEntity=true)/SiblingEntity"
+		}
+	},
+	"to_Company": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'1672b819-0399-4be8-a9d7-e5f5ad2d4a80',IsActiveEntity=true)/to_Company"
+		}
+	},
+	"to_Controlling": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'1672b819-0399-4be8-a9d7-e5f5ad2d4a80',IsActiveEntity=true)/to_Controlling"
+		}
+	}
+}, {
+	"Preparation_ac": false,
+	"Validation_ac": true,
+	"WBSUUID": "297bd9b6-816f-448b-a08f-7ab34eea9475",
+	"ProjectUUID": "6aeb6da2-18ad-4521-8fd6-21cc3f0abb31",
+	"Posid": "Posid 8",
+	"HierachyLevel": 7,
+	"ParentNode": "ParentNode 8",
+	"ElementName": "ElementName 8",
+	"Person": "Person 8",
+	"StartDate": "/Date(1027755095000)/",
+	"FinishDate": "/Date(1410161495000)/",
+	"BusinessArea": "BusinessArea 8",
+	"CompanyCode": "CompanyCode 8",
+	"ControllingArea": "ControllingArea 8",
+	"DrillDownState": "DrillDownState 8",
+	"HasDraftEntity": true,
+	"ActiveUUID": "f25fe633-462e-49f0-b5ac-22b622afb94a",
+	"DraftEntityCreationDateTime": "/Date(1178436695000+0000)/",
+	"DraftEntityLastChangeDateTime": "/Date(1427009495000+0000)/",
+	"HasActiveEntity": false,
+	"IsActiveEntity": true,
+	"__metadata": {
+		"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'297bd9b6-816f-448b-a08f-7ab34eea9475',IsActiveEntity=false)",
+		"type": "ZDEMO_C_PRO_TP_D_CDS.ZDEMO_C_Wb_TP_DType"
+	},
+	"to_Project": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'297bd9b6-816f-448b-a08f-7ab34eea9475',IsActiveEntity=false)/to_Project"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'297bd9b6-816f-448b-a08f-7ab34eea9475',IsActiveEntity=false)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'297bd9b6-816f-448b-a08f-7ab34eea9475',IsActiveEntity=false)/SiblingEntity"
+		}
+	},
+	"to_Company": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'297bd9b6-816f-448b-a08f-7ab34eea9475',IsActiveEntity=false)/to_Company"
+		}
+	},
+	"to_Controlling": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'297bd9b6-816f-448b-a08f-7ab34eea9475',IsActiveEntity=false)/to_Controlling"
+		}
+	}
+}, {
+	"Preparation_ac": false,
+	"Validation_ac": true,
+	"WBSUUID": "4d76b9c7-31d7-4220-9b9a-624757c5f990",
+	"ProjectUUID": "04dacb04-7c4d-46b4-aded-ef0c8992c6f0",
+	"Posid": "Posid 9",
+	"HierachyLevel": 0,
+	"ParentNode": "ParentNode 9",
+	"ElementName": "ElementName 9",
+	"Person": "Person 9",
+	"StartDate": "/Date(1330932695000)/",
+	"FinishDate": "/Date(1500881495000)/",
+	"BusinessArea": "BusinessArea 9",
+	"CompanyCode": "CompanyCode 9",
+	"ControllingArea": "ControllingArea 9",
+	"DrillDownState": "DrillDownState 9",
+	"HasDraftEntity": false,
+	"ActiveUUID": "168062a0-2a5f-406f-a0ad-11ee53acd1ef",
+	"DraftEntityCreationDateTime": "/Date(1054798295000+0000)/",
+	"DraftEntityLastChangeDateTime": "/Date(1078385495000+0000)/",
+	"HasActiveEntity": false,
+	"IsActiveEntity": true,
+	"__metadata": {
+		"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'4d76b9c7-31d7-4220-9b9a-624757c5f990',IsActiveEntity=true)",
+		"type": "ZDEMO_C_PRO_TP_D_CDS.ZDEMO_C_Wb_TP_DType"
+	},
+	"to_Project": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'4d76b9c7-31d7-4220-9b9a-624757c5f990',IsActiveEntity=true)/to_Project"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'4d76b9c7-31d7-4220-9b9a-624757c5f990',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'4d76b9c7-31d7-4220-9b9a-624757c5f990',IsActiveEntity=true)/SiblingEntity"
+		}
+	},
+	"to_Company": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'4d76b9c7-31d7-4220-9b9a-624757c5f990',IsActiveEntity=true)/to_Company"
+		}
+	},
+	"to_Controlling": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'4d76b9c7-31d7-4220-9b9a-624757c5f990',IsActiveEntity=true)/to_Controlling"
+		}
+	}
+}, {
+	"Preparation_ac": true,
+	"Validation_ac": false,
+	"WBSUUID": "083411f8-3960-4feb-a0af-2d18f1f68753",
+	"ProjectUUID": "eef5ac81-218f-41ad-9741-6b8c531c973e",
+	"Posid": "Posid 10",
+	"HierachyLevel": 8,
+	"ParentNode": "ParentNode 10",
+	"ElementName": "ElementName 10",
+	"Person": "Person 10",
+	"StartDate": "/Date(1456731095000)/",
+	"FinishDate": "/Date(1099207895000)/",
+	"BusinessArea": "BusinessArea 10",
+	"CompanyCode": "CompanyCode 10",
+	"ControllingArea": "ControllingArea 10",
+	"DrillDownState": "DrillDownState 10",
+	"HasDraftEntity": false,
+	"ActiveUUID": "09cb0c87-8b38-4b91-a4b6-dade86c589da",
+	"DraftEntityCreationDateTime": "/Date(1070004695000+0000)/",
+	"DraftEntityLastChangeDateTime": "/Date(1185175895000+0000)/",
+	"HasActiveEntity": false,
+	"IsActiveEntity": true,
+	"__metadata": {
+		"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'083411f8-3960-4feb-a0af-2d18f1f68753',IsActiveEntity=true)",
+		"type": "ZDEMO_C_PRO_TP_D_CDS.ZDEMO_C_Wb_TP_DType"
+	},
+	"to_Project": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'083411f8-3960-4feb-a0af-2d18f1f68753',IsActiveEntity=true)/to_Project"
+		}
+	},
+	"DraftAdministrativeData": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'083411f8-3960-4feb-a0af-2d18f1f68753',IsActiveEntity=true)/DraftAdministrativeData"
+		}
+	},
+	"SiblingEntity": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'083411f8-3960-4feb-a0af-2d18f1f68753',IsActiveEntity=true)/SiblingEntity"
+		}
+	},
+	"to_Company": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'083411f8-3960-4feb-a0af-2d18f1f68753',IsActiveEntity=true)/to_Company"
+		}
+	},
+	"to_Controlling": {
+		"__deferred": {
+			"uri": "ZDEMO_C_Wb_TP_D(WBSUUID=guid'083411f8-3960-4feb-a0af-2d18f1f68753',IsActiveEntity=true)/to_Controlling"
+		}
+	}
+}]

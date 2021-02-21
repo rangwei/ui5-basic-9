@@ -1,0 +1,75 @@
+<mvc:View
+	controllerName="demo.sap.proj_worklist1.controller.Object"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.f.semantic"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core"
+	xmlns:footerbar="sap.ushell.ui.footerbar">
+
+	<semantic:SemanticPage
+		id="page"
+		headerPinnable="false"
+		toggleHeaderOnTitleClick="false"
+		busy="{objectView>/busy}"
+		busyIndicatorDelay="{objectView>/delay}"
+		showFooter="{objectView>/showFooter}">
+
+		<semantic:titleHeading>
+			<Title
+				text="{Projdef}"
+				level="H2"/>
+		</semantic:titleHeading>
+
+		<semantic:headerContent>
+			<ObjectAttribute title="ProjectUUID" text="{ProjectUUID}"/>
+			<ObjectAttribute title="Responsiblity" text="{Responsibility}"/>
+			<ObjectAttribute title="StartDate" text="{StartDate}"/>
+			<ObjectAttribute title="EndDate" text="{EndDate}"/>
+			<ObjectNumber
+			/>
+		</semantic:headerContent>
+		
+		
+		<semantic:content>
+
+	
+		</semantic:content>
+		
+		<semantic:titleMainAction>
+			<semantic:TitleMainAction id="edit" text="Edit" press=".handleEditPress"/>
+		</semantic:titleMainAction>
+		
+		
+		<semantic:sendEmailAction>
+			<semantic:SendEmailAction id="shareEmail" press=".onShareEmailPress"/>
+		</semantic:sendEmailAction>
+
+		<semantic:shareInJamAction>
+			<semantic:ShareInJamAction id="shareInJam" visible="{FLP>/isShareInJamActive}" press=".onShareInJamPress"/>
+		</semantic:shareInJamAction>
+
+		<semantic:saveAsTileAction>
+			<footerbar:AddBookmarkButton id ="shareTile" title="{objectView>/saveAsTileTitle}"/>
+		</semantic:saveAsTileAction>
+		
+		<!-- Semantic Footer Buttons -->
+		<semantic:footerMainAction>
+			<semantic:FooterMainAction text="Save" press="onSave"/>
+		</semantic:footerMainAction>
+
+		<semantic:footerCustomActions>
+			<Button id="cancelAction" text="Cancel" press="onCancel"/>
+		</semantic:footerCustomActions>
+
+		<semantic:messagesIndicator>
+			<semantic:MessagesIndicator press="onMessagesButtonPress"/>
+		</semantic:messagesIndicator>
+
+		<semantic:draftIndicator>
+			<DraftIndicator id="draftIndi" ></DraftIndicator>
+		</semantic:draftIndicator>
+
+	</semantic:SemanticPage>
+
+</mvc:View>
